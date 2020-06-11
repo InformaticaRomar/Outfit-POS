@@ -256,7 +256,7 @@ namespace Outfit_POS
                 foreach (ListViewItem item in selected)//recorres la lista
                 {
                     // ListView1.Items.Remove(item);//eliminas los item del listview
-                    frm_PrintReceipt pr = new frm_PrintReceipt(item.SubItems[2].Text);//label9.Text);
+                    frm_PrintReceipt pr = new frm_PrintReceipt(item.SubItems[1].Text);//label9.Text);
                     pr.ShowDialog();
 
                 }
